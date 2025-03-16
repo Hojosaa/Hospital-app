@@ -1,0 +1,244 @@
+[33mcommit 9a078709f053938ed917e4486b767d3749e7ae2d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Raharth <ra641@kent.ac.uk>
+Date:   Fri Mar 22 00:10:31 2024 +0000
+
+    Fix errors with registration and closing connection. Add preset values to reg for testing purposes
+
+[33mcommit 5c3c9ac951487be1a79e6955ce1b812f003c60e0[m
+Author: Raharth <ra641@kent.ac.uk>
+Date:   Thu Mar 21 23:51:22 2024 +0000
+
+    Made layout for the view bookings
+
+[33mcommit d7ab63f583b1992dfa99ac1765e1898190f075ca[m
+Author: Raharth <ra641@kent.ac.uk>
+Date:   Thu Mar 21 23:10:16 2024 +0000
+
+    Create new GUI for view bookings
+
+[33mcommit d86fb05e64f7fae988e94041e8f20aca4c9e8bfc[m
+Author: dh566 <dh566@kent.ac.uk>
+Date:   Thu Mar 21 10:27:36 2024 +0000
+
+    ?
+
+[33mcommit 11152933d7cd08fe7d2519cde4eb9a8879569edd[m
+Author: Desgarrosa <djrruano@gmail.com>
+Date:   Thu Mar 21 08:40:21 2024 +0000
+
+    removed framework for bookappointment (bookingsystem) due to it conflicting with code, added backend buissness logic for bookappointment
+
+[33mcommit 96d5c66fc5b33f1bde58aa4243a797553731eab5[m
+Author: Desgarrosa <djrruano@gmail.com>
+Date:   Thu Mar 21 05:45:01 2024 +0000
+
+    finished getBooking method in BookingDataAccess
+
+[33mcommit d1d0f120e82b8810e3712e2b25fcce02b9529836[m
+Author: Desgarrosa <djrruano@gmail.com>
+Date:   Thu Mar 21 05:42:04 2024 +0000
+
+    started to implement methods into BookingDataAccess
+
+[33mcommit c8f718a05f33648bb3627317e91a24ea88cb3e25[m
+Merge: c4f1305 0702a25
+Author: Desgarrosa <djrruano@gmail.com>
+Date:   Thu Mar 21 05:10:47 2024 +0000
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit c4f1305a6c671fb1caea6ae0ae22cad84ba6e747[m
+Author: Desgarrosa <djrruano@gmail.com>
+Date:   Thu Mar 21 05:10:24 2024 +0000
+
+    finished model for booking and booking creation and adding methods in the BookingDataACCESS interface
+
+[33mcommit 0702a254e93ba6a2f3da2f61d6a06157e6d29f75[m
+Author: Raharth <ra641@kent.ac.uk>
+Date:   Thu Mar 21 04:53:58 2024 +0000
+
+    comment out a print statement in change doctor used for debugging
+
+[33mcommit e35eccd8a1459594c7e46d8ad39473c572b71948[m
+Author: Raharth <ra641@kent.ac.uk>
+Date:   Thu Mar 21 04:51:08 2024 +0000
+
+    Fix scaling on view doctors
+
+[33mcommit 85484ffd295ce678311509e4155a1b62990c3cb8[m
+Author: Raharth <ra641@kent.ac.uk>
+Date:   Thu Mar 21 04:46:19 2024 +0000
+
+    fix error with loginpage
+
+[33mcommit 42037eb0b02e5f520c6290a81b1b93ffc26f7d81[m
+Author: Raharth <ra641@kent.ac.uk>
+Date:   Thu Mar 21 04:30:58 2024 +0000
+
+    error not fix so commiting back in and fix soon
+
+[33mcommit 84a769dec963fc74c326a7d45423d7214c7bc13b[m
+Author: Raharth <ra641@kent.ac.uk>
+Date:   Thu Mar 21 04:27:02 2024 +0000
+
+    Fix error with loginpage when user didnt enter anything
+
+[33mcommit 1f2ec1bdc52aa733ee89e178832a7ff504d2f817[m
+Author: Raharth <ra641@kent.ac.uk>
+Date:   Thu Mar 21 04:20:45 2024 +0000
+
+    Add create tabls SQL statement and got rid of unused imports
+
+[33mcommit 5258a296fb6c12342c43ff0f0776a5c8dc2d5ba6[m
+Author: Raharth <ra641@kent.ac.uk>
+Date:   Thu Mar 21 03:32:27 2024 +0000
+
+    Made view doctor dynamic
+
+[33mcommit f752f4a500d3047643c915502e9c91b5785f9796[m
+Author: Desgarrosa <djrruano@gmail.com>
+Date:   Thu Mar 21 03:10:45 2024 +0000
+
+    created model for DoctorAvailibility and also created an interface in preperation for doctoravailability data accesss, furthermore fixed error on bookingappointment
+
+[33mcommit d0deacac93fa2c357ec4fcc628e20534e0b43518[m
+Author: Raharth <ra641@kent.ac.uk>
+Date:   Thu Mar 21 02:34:31 2024 +0000
+
+    Flip doctors and booking around in book appointment
+
+[33mcommit 39ec903d49cf9aac68366117b67ecb747fddcb7d[m
+Author: Raharth <ra641@kent.ac.uk>
+Date:   Thu Mar 21 02:18:08 2024 +0000
+
+    Made Time enum and Add stuff to book appointment
+
+[33mcommit 40ecfd94654e8a768938fd7f76b75e6cc14b66e4[m
+Author: Raharth <ra641@kent.ac.uk>
+Date:   Thu Mar 21 01:37:28 2024 +0000
+
+    Made registration dynamic
+
+[33mcommit 4dbe5753fd1114eecd3af517693546ed7761ddad[m
+Merge: ceff785 b89afeb
+Author: Raharth <ra641@kent.ac.uk>
+Date:   Thu Mar 21 01:28:13 2024 +0000
+
+    Merge branch 'main' of https://git.cs.kent.ac.uk/ra641/group25a
+
+[33mcommit ceff78599b602adedb2bf6931abf30c15716cb06[m
+Author: Raharth <ra641@kent.ac.uk>
+Date:   Thu Mar 21 01:27:55 2024 +0000
+
+    Made reschedule and visit details page dynamic
+
+[33mcommit b89afebb54259fbb212660357e0361e9e7572c03[m
+Merge: d34d7e9 756b2f5
+Author: Desgarrosa <djrruano@gmail.com>
+Date:   Thu Mar 21 01:19:45 2024 +0000
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit d34d7e9d7e3090f818ca67cc347436034fa42114[m
+Author: Desgarrosa <djrruano@gmail.com>
+Date:   Thu Mar 21 01:19:21 2024 +0000
+
+    added viewDoctorsPopup for last deliverable and edited viewDoctors in preparation for next work
+
+[33mcommit 08d1a0c0de41059f64e64420523913010de6736b[m
+Merge: 93b5482 756b2f5
+Author: Raharth <ra641@kent.ac.uk>
+Date:   Thu Mar 21 00:43:54 2024 +0000
+
+    Merge branch 'main' of https://git.cs.kent.ac.uk/ra641/group25a
+
+[33mcommit 756b2f5568cc12a07c825b356d56467a3b80d068[m
+Merge: ff46c37 15569cd
+Author: dh566 <dh566@kent.ac.uk>
+Date:   Wed Mar 20 14:03:13 2024 +0000
+
+    Merge branch 'main' of https://git.cs.kent.ac.uk/ra641/group25a
+
+[33mcommit ff46c3729787711bb91462f70f8a12e7d38c8630[m
+Author: dh566 <dh566@kent.ac.uk>
+Date:   Wed Mar 20 14:03:10 2024 +0000
+
+    fixed senderID being null. now patient is sender and doctor is receiver
+
+[33mcommit 15569cd944c7eb8a2425753c6f8efcad014be5fd[m
+Author: Desgarrosa <djrruano@gmail.com>
+Date:   Wed Mar 20 13:54:33 2024 +0000
+
+    updated database by adding DoctorAVAILIBILITY relation and added test insert cases (this is for viewdoctors and will be used for booking also)
+
+[33mcommit 4af955184e7a34df2c1f76cc18b0d5af09e36744[m
+Merge: 5270adb c97cda3
+Author: Desgarrosa <djrruano@gmail.com>
+Date:   Wed Mar 20 13:15:48 2024 +0000
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit 93b54820feb4b46b70907dbc824358b03e797ab0[m
+Author: Raharth <ra641@kent.ac.uk>
+Date:   Wed Mar 20 13:14:03 2024 +0000
+
+    Made messages dynamic
+
+[33mcommit e6da8de600ecbb70c15efd254e2cb40e2f8b0ee8[m
+Author: Raharth <ra641@kent.ac.uk>
+Date:   Wed Mar 20 12:59:14 2024 +0000
+
+    Add back exception and replaced statustext with dialogbox
+    
+    i was being stupid and  forgot i just could change statustext to dialogbox
+
+[33mcommit c97cda38349260397ae2dbbaba3b2c6e18bfd4bb[m
+Author: Raharth <ra641@kent.ac.uk>
+Date:   Wed Mar 20 13:14:03 2024 +0000
+
+    Made messages dynamic
+
+[33mcommit fb5e0988853a97ca3b7339c14870e8a827c6c0c4[m
+Author: Raharth <ra641@kent.ac.uk>
+Date:   Wed Mar 20 12:59:14 2024 +0000
+
+    Add back exception and replaced statustext with dialogbox
+    
+    i was being stupid md forgot i just could change statustext to dialogbox
+
+[33mcommit 5270adb259aa7e9b0d4f20a4bb76059db6e5ca28[m
+Author: Desgarrosa <djrruano@gmail.com>
+Date:   Wed Mar 20 12:50:29 2024 +0000
+
+    updated viewDoctors in reflection of attributed added to doctors table
+
+[33mcommit 95abd9b9f9078013967a9274a88368bf0bdcdcbf[m
+Merge: a9ffb1f 69e6f65
+Author: Desgarrosa <djrruano@gmail.com>
+Date:   Wed Mar 20 12:45:56 2024 +0000
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit a9ffb1fcff688c937ee4ef55f80d9c024d92ed06[m
+Author: Desgarrosa <djrruano@gmail.com>
+Date:   Wed Mar 20 12:45:30 2024 +0000
+
+    scaled up doctor table to include doctor feautures, also refacted doctordataaccess sql statements to prevent sql injections and fixed an issue in patient registration by adding @OVERRIDE toString so the doctor shows its name instead of mode.doct23e23etc
+
+[33mcommit 69e6f65bad6a00e77fb0f296d21b3c6a1caadb75[m
+Author: Raharth <ra641@kent.ac.uk>
+Date:   Wed Mar 20 12:45:15 2024 +0000
+
+    Fix errors to do with exceptions
+
+[33mcommit 950da22b4cbeff2ed9564374f5a48a9ba48b36fc[m
+Author: Raharth <ra641@kent.ac.uk>
+Date:   Wed Mar 20 12:43:40 2024 +0000
+
+    Got rid of unnecessary exception to implement dialog box
+
+[33mcommit 8d1ac13b66e95c7cee17718c9343c194ee5d5a44[m
+Author: Raharth <ra641@kent.ac.uk>
+Date:   Wed Mar 20 12:37:43 2024 +0000
+
+    Made dynamic size and made page dynamic
